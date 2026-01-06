@@ -26,6 +26,12 @@ img {
     justify-content: space-evenly;
 }
 
+.boardG-container {
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .Categories {
     display: flex;
 }
