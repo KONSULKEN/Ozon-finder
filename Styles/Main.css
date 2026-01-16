@@ -25,22 +25,30 @@ img {
 }
 
 .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #B0FF12;
     border-radius: 16px;
 }
 
 .Games-container {
     margin: 30px;
-    display: inline-flex;
-    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 27px;
+    justify-content: flex-start;
 }
 
 .boardG-container {
     margin: 30px;
-    display: inline-flex;
-    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .Categories {
-    display: inline-flex;
+    display: flex;
+    column-gap: 12px;
 }
+
