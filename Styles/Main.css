@@ -53,3 +53,9 @@ img {
     column-gap: 12px;
 }
 
+.account-create-btn {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
