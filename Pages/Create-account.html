@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Styles/Main.css">
+    <link rel="stylesheet" href="/Styles/Create-account.css">
     <title>Создайте свой аккаунт для Ozon finder</title>
 </head>
 <body>
-    
+    <div class="title">
+    <h1>Создайте свой аккаунт</h1>
+    </div>
+    <div class="reg">
+        <form action="">
+            <div class="email">
+                <label class="label">Адрес электронной почты:</label>
+                <input type="email" required size="55" inputmode="email" class="input">
+            </div>
+            <div class="login">
+                <label class="label">Имя пользователя:</label>
+                <input type="text" required size="55" maxlength="20" placeholder="не более 20 символов" class="input">
+            </div>
+            <div class="pass">
+                <label class="label">Пароль:</label>
+                <input type="password" required size="55" minlength="5" maxlength="50" placeholder="от 5 до 50 символов" class="input">
+            </div>
+            <button type="submit">Зарегестрироватся</button>
+        </form>
+    </div>
 </body>
 </html>
