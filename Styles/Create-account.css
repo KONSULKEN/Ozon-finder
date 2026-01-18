@@ -224,11 +224,15 @@ body {
     justify-content: center;
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+}
+
 .reg {
     background-color: #ebeff5;
     border-radius: 16px;
     position: absolute;
-    left: 425px;
 }
 
 .email {
@@ -236,6 +240,7 @@ body {
     margin: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .login {
@@ -243,6 +248,7 @@ body {
     margin: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .pass {
@@ -250,6 +256,7 @@ body {
     margin: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .input {
