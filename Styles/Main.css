@@ -69,9 +69,33 @@ img {
     column-gap: 12px;
 }
 
+.Copyright {
+    display: flex;
+    background-color: #EBEFF5;
+    border-radius: 16px;
+    padding-top: 14px;
+    padding-left: 13px;
+    padding-bottom: 30px;
+    column-gap: 15px;
+    position: relative;
+}
+
+.Disclaimer {
+    color: #9F9F9F;
+}
+
+.github-url {
+    color: #C2C2C2;
+    order: -1;
+    font-size: small;
+    position: absolute;
+    bottom: 0px;
+}
+
 .account-create-btn {
     position: fixed;
     bottom: 10px;
     right: 17px;
+    z-index: 100;
 }
 
