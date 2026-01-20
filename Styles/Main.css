@@ -30,6 +30,8 @@ img {
     align-items: center;
     background-color: #B0FF12;
     border-radius: 16px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .Games-container {
@@ -57,6 +59,30 @@ img {
 }
 
 .Devices-container {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 27px;
+    justify-content: flex-start;
+}
+
+.Plants-container {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 27px;
+    justify-content: flex-start;
+}
+
+.Sport-container {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 27px;
+    justify-content: flex-start;
+}
+
+.Books-container {
     margin: 30px;
     display: flex;
     flex-wrap: wrap;
