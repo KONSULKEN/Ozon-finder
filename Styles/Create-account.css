@@ -270,11 +270,16 @@ body {
     font-size: x-large;
 }
 
+.submit-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 button {
     margin-bottom: 20px;
     margin-inline: 20px;
     position: relative;
-    left: 195px;
     border-radius: 10px;
     border-color: #59A731;
     border-style: solid;
@@ -282,4 +287,9 @@ button {
     width: 250px;
     height: 45px;
     font-size: larger;
+}
+
+button:hover {
+    background-color: #dcff97; 
+    border-color: #6baf4a;
 }

@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Onest', Arial;
+    margin: 0;
 }
 
 img {
@@ -127,3 +128,26 @@ img {
     z-index: 100;
 }
 
+.Navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 2px solid #C2C2C2;
+}
+
+.logo {
+    width: 80px;
+    justify-self: start;
+}
+
+.search {
+    width: 550px;
+    height: 50px;
+    border-radius: 5px;
+    border: #B0FF12 solid;
+    margin-inline: 10px;
+}
