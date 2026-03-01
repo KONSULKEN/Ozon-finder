@@ -34,6 +34,7 @@ img {
     padding-top: 25px;
     padding-bottom: 25px;
     flex-wrap: wrap;
+    margin-top: 110px;
 }
 
 .Games-container {
@@ -131,6 +132,8 @@ img {
     padding: 5px;
     border-bottom: 2px solid #C2C2C2;
     width: 100vw;
+    position: fixed;
+    top: 0px;
 }
 
 .logo {
