@@ -121,13 +121,6 @@ img {
     bottom: 0px;
 }
 
-.account-create-btn {
-    position: fixed;
-    bottom: 10px;
-    right: 17px;
-    z-index: 100;
-}
-
 .Navbar {
     display: flex;
     flex-wrap: nowrap;
@@ -137,11 +130,11 @@ img {
     margin-bottom: 10px;
     padding: 5px;
     border-bottom: 2px solid #C2C2C2;
+    width: 100vw;
 }
 
 .logo {
     width: 80px;
-    justify-self: start;
 }
 
 .search {
@@ -150,4 +143,8 @@ img {
     border-radius: 5px;
     border: #B0FF12 solid;
     margin-inline: 10px;
+}
+
+.feedback {
+    margin-inline: 5px;
 }
