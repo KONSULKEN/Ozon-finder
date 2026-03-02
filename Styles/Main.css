@@ -151,3 +151,13 @@ img {
 .feedback {
     margin-inline: 5px;
 }
+
+.item {
+    width: 250px;
+}
+
+.item-name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
