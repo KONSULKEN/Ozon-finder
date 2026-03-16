@@ -1,5 +1,5 @@
 # Hi There! | Привет!
-Img/README-Banner.png
+<img src="./Img/README-Banner.png">
 
 Данный сайт разработан для отработки моих знаний в веб разработке, и не имеет ничего общего с ozon.by 
 
