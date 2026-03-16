@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Onest';
+    src: url(./Fonts/Onest-Regular.woff2) format('woff2');
+    font-weight: 400;  
+    font-style: normal; 
+    font-display: swap;
+}
+
+body {
+    font-family: 'Onest', Arial;
+    margin: 0;
+    background-color: #f8f8f8;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50vw;
+    align-items: center;
+    padding-top: 20px;
+    font-size: larger;
+}
+
+.get-back-btn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.btn-img {
+    width: 200px;
+}
+
+.banner {
+    width: 906px;
+    height: 273px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 5px #e4e4e4;
+}
+
+.line {
+    width: 95%;
+    border: solid 1.5px #e4e4e4;
+    border-radius: 5px;
+    padding-inline: 5px;
+}
