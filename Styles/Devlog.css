@@ -28,9 +28,14 @@ body {
 }
 
 .get-back-btn {
+    transition: all 0.5s;
     position: fixed;
     top: 10px;
     left: 10px;
+}
+
+.get-back-btn:hover {
+    transform: scale(1.05);
 }
 
 .btn-img {

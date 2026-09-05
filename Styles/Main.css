@@ -6,6 +6,10 @@
     font-display: swap;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Onest', Arial;
     margin: 0;
@@ -17,12 +21,15 @@ img {
 
 .price {
     border: 3px solid #59A731;
-    border-radius: 15px;
+    border-radius: 10px;
+    padding-inline: 5px;
 }
 
 .Category-name {
     border: 3px solid #59A731;
     border-radius: 16px;
+    padding-inline: 5px;
+    margin-inline: 15px;
 }
 
 .title {
@@ -35,6 +42,7 @@ img {
     padding-bottom: 25px;
     flex-wrap: wrap;
     margin-top: 110px;
+    margin-inline: 10px;
 }
 
 .Games-container {
@@ -97,6 +105,7 @@ img {
     display: flex;
     column-gap: 12px;
     flex-wrap: wrap;
+    margin-inline: 15px;
 }
 
 .Copyright {
